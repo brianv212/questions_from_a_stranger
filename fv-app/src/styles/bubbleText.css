@@ -1,0 +1,72 @@
+.bubble{
+    background-color: #E5E5EA;
+    border-radius: 5px;
+    box-shadow: 0 0 6px #B2B2B2;
+    /* display: inline-block; */
+    padding: 10px 18px;
+    position: relative;
+    /* vertical-align: top; */
+    float: left;   
+    margin: 5px 70% 5px 5rem;
+}
+
+.bubble::before {
+    background-color: #E5E5EA;
+    content: "\00a0";
+    display: block;
+    height: 16px;
+    position: absolute;
+    top: 11px;
+    transform: rotate( 29deg ) skew( -35deg );
+    width:  20px;
+    box-shadow: -2px 2px 2px 0 rgba( 178, 178, 178, .4 );
+    left: -9px; 
+}
+
+.ft-response{
+    background-color: #2CA1FC;
+    border-radius: 5px;
+    box-shadow: 0 0 6px #B2B2B2;
+    padding: 10px 18px;
+    position: relative;
+    margin: 10rem 89px 5rem 70%;
+    text-align: center;
+    height: 35px
+}
+
+.ft-response::before {
+    background-color: #2CA1FC;
+    content: "\00a0";
+    display: block;
+    height: 16px;
+    position: absolute;
+    top: 11px;
+    transform: rotate( 29deg ) skew( -35deg );
+    width: 20px;
+    right: -9px;
+}
+
+.ft-enter-button {
+    border: none;
+    background-color: #2CA1FC;
+    font-family: Comfortaa;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.ft-enter-nonclickable {
+    border: none;
+    background-color: #2CA1FC;
+    font-family: Comfortaa;
+    font-size: 16px;
+}
+
+.username-input {
+
+}
+
+.username-submit {
+    border: none;
+    font-family: Comfortaa;
+    font-weight: bold;
+}

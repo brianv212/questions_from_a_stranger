@@ -1,0 +1,23 @@
+.user-page {
+    display: flex;
+    flex-direction: row;
+}
+
+.question-selection {
+    width: 75%;
+    height: 200px;
+    background-color: aquamarine;
+    margin: auto;
+    margin-top: 3rem;
+    border-radius: 10px;
+}
+
+.question-answers {
+    overflow-y: scroll;
+    margin: auto;
+    margin-top: 3rem;
+    width: 75%;
+    height: 500px;
+    background-color: bisque;
+    border-radius: 10px;
+}

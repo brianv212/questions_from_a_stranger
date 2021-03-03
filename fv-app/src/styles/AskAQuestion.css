@@ -1,0 +1,19 @@
+.askAQuestion {
+    text-align: center;
+}
+
+.question_form {
+    width: 60%;
+    height: 400px;
+    resize: none;
+    background-color: bisque;
+    margin: auto;
+}
+
+.form_button {
+    margin: auto;
+}
+
+.error {
+    color: red
+}

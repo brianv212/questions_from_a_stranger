@@ -1,0 +1,70 @@
+.top-line {
+    border-color: #FEFEFE;
+    font-size: 5px;
+    width: 60%;
+    margin-left: -10%;
+    margin-bottom: 3rem
+}
+
+.bottom-line {
+    border-color: #2CA1FC;
+    font-size: 5px;
+    width: 50%;
+    margin-right: 0%;
+    transform: translateY(7400%);
+}
+
+.intro {
+    margin: 0rem 0rem 0rem 5rem
+}
+
+.intro div {
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+}
+
+.sign-in{
+    background-color: aliceblue;
+    width: 300px;
+    height: 100px;
+    transform: translateY(200%);
+    margin-left: 70%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    box-shadow: 2px 2px #00000085;
+    border-radius: 10px;
+  }
+  
+.sign-in button {
+    font-size: 14px;
+    height: 50px;
+    width: 200px;
+    background-color: aliceblue;
+    text-align: center;
+
+    justify-content: space-evenly;
+    display: flex;
+
+    border-radius: 10px;
+    border-style: hidden;
+}
+
+.sign-in button img {
+    width: 25%;
+    height: 100%;
+}
+
+.sign-out-button {
+    color: blanchedalmond;
+    font-size: 16px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    font-family: Comfortaa;
+    outline: none
+}
